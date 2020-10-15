@@ -1,0 +1,31 @@
+
+<p>
+<mat-form-field appearance="outline">
+  <mat-label>Title</mat-label>
+  <input matInput placeholder="" [(ngModel)]="title">
+</mat-form-field>
+ 
+
+  <mat-form-field class="example-full-width" appearance="outline">
+    <mat-label >Date</mat-label>
+  <input  type="date"  matInput placeholder="" [(ngModel)]="year">
+  
+</mat-form-field>
+
+<mat-form-field appearance="outline">
+  <mat-label>Description</mat-label>
+  <mat-icon  color="primary" matSuffix>create</mat-icon>
+  <input   matInput placeholder="" [(ngModel)]="desc">
+ </mat-form-field>
+
+</p>
+
+<div class="cards">
+
+
+<mat-card>
+ <h2 class="title"> {{title | uppercase}}</h2><br>
+  <h5 class="year">{{year}}</h5><br>
+  {{desc}}
+ </mat-card>
+  </div>

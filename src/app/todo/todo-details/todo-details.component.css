@@ -1,0 +1,29 @@
+p{
+    width:50%;
+    margin: 10px auto;
+    text-align:center;
+   
+}
+.add-button{
+    width:50%;
+    margin:10px auto;
+    text-align: center;
+}
+.cards{
+    width:75%;
+    margin:2px auto;
+}
+mat-card{
+    margin:2px;
+}
+mat-icon{
+    float:right;
+}
+.title{
+    color:#ee6f57;
+    margin:0;
+}
+.year{
+    color:#1f3c88;
+    margin:0;
+}
